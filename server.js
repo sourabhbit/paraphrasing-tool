@@ -12,9 +12,14 @@ module.exports = (phase) => {
   };
 
   // next.config.js object
+  // return {
+  //   basePath: "/paraphrasing-tool",
+  //   assetPrefix: "/paraphrasing-tool/",
+  //   env,
+  // };
   return {
-    basePath: "/paraphrasing-tool",
-    assetPrefix: "/paraphrasing-tool/",
+    basePath: "/",
+    assetPrefix: "/",
     env,
   };
 };
