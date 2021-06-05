@@ -27,6 +27,7 @@ export default function Paraphraser(props) {
           headers: {
             Accept: "application/json",
             "Content-Type": "application/json",
+            "access-control-allow-credentials": "true",
           },
           body: JSON.stringify({ text: inputText, mode: paraphraseMode }),
         }
